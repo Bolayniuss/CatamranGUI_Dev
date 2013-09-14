@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         MainWindow.cpp \
-    SensorInputItem.cpp
+    SensorInputItem.cpp \
+    SensorInputsModel.cpp
 
 HEADERS  += MainWindow.h \
-    SensorInputItem.h
+    SensorInputItem.h \
+    SensorInputsModel.h
 
 FORMS    += MainWindow.ui
